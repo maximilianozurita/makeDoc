@@ -1,0 +1,8 @@
+{
+  "name": "makeDoc",
+  "description": "Generates and updates professional technical documentation for GitHub projects. Writes README.md and files in /docs directly to the filesystem.",
+  "author": {
+    "name": "Maximiliano Zurita",
+    "email": "maximiliano.zurita.sebastian@gmail.com"
+  }
+}
