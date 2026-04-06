@@ -13,15 +13,11 @@ Analyzes the source code and writes directly to the filesystem:
 - `docs/testing.md` *(if applicable)*
 
 ## Installation
-
-```bash
-/plugin install makeDoc@maximilianozurita
-```
-Or manually:
+If you want to install it for all repos (and if Claude is located in ~/.claude)
 ```bash
 git clone https://github.com/maximilianozurita/makeDoc ~/.claude/plugins/makeDoc
-cp -r ~/.claude/plugins/makeDoc/skills/* ~/.claudeskills/
-cp ~/.claude/plugins/makeDoc/agents/* ~/.claude/agents/
+mkdir -p ~/.claude/skills && cp -a ~/.claude/plugins/makeDoc/skills/. ~/.claude/skills/
+mkdir -p ~/.claude/agents && cp -a ~/.claude/plugins/makeDoc/agents/. ~/.claude/agents/
 ```
 
 ## Usage
