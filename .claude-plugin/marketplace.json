@@ -1,0 +1,26 @@
+{
+  "name": "makeDoc",
+  "owner": {
+    "name": "Maximiliano Zurita",
+    "email": "maximiliano.zurita.sebastian@gmail.com"
+  },
+  "metadata": {
+    "description": "Generate and update professional technical documentation for GitHub projects."
+  },
+  "plugins": [
+    {
+      "name": "makeDoc",
+      "source": "./",
+      "description": "Generates and updates professional technical documentation for GitHub projects. Writes README.md and files in /docs directly to the filesystem.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Maximiliano Zurita",
+        "email": "maximiliano.zurita.sebastian@gmail.com"
+      },
+      "homepage": "https://github.com/maximilianozurita/makeDoc",
+      "repository": "https://github.com/maximilianozurita/makeDoc",
+      "license": "MIT",
+      "keywords": ["documentation", "readme", "docs", "generator", "github"]
+    }
+  ]
+}
