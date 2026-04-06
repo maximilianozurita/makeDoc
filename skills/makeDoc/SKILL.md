@@ -1,7 +1,7 @@
 ---
 name: makeDoc
 description: Generates or updates professional technical documentation for GitHub projects. Use /makeDoc to generate from scratch, /makeDoc --update to update, /makeDoc --agent to run in a subagent.
-argument-hint: [--update] [--agent]
+argument-hint: "[--update] [--agent]"
 allowed-tools: [Read, Write, Glob, Grep, LS, Bash]
 ---
 
